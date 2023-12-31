@@ -1,3 +1,3 @@
 ### brianliebe.com
 
-Personal website
+Personal website created using React.js and Carbon Design System
