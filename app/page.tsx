@@ -7,6 +7,7 @@ import {
   DataCategorical,
   Education,
   Home,
+  Launch,
 } from "@carbon/icons-react";
 
 export default function HomePage() {
@@ -45,6 +46,7 @@ export default function HomePage() {
             <p>
               <a href="https://www.github.com/brianliebe" target="_blank">
                 GitHub
+                <Launch size="12" className="inline-icon" />
               </a>
             </p>
           </TabPanel>
@@ -136,6 +138,7 @@ export default function HomePage() {
                   target="_blank"
                 >
                   View on GitHub
+                  <Launch size="12" className="inline-icon" />
                 </a>
               </small>
             </p>
@@ -153,6 +156,7 @@ export default function HomePage() {
                   target="_blank"
                 >
                   View on GitHub
+                  <Launch size="12" className="inline-icon" />
                 </a>
               </small>
             </p>
@@ -170,6 +174,7 @@ export default function HomePage() {
                   target="_blank"
                 >
                   View on GitHub
+                  <Launch size="12" className="inline-icon" />
                 </a>
               </small>
             </p>
@@ -181,12 +186,14 @@ export default function HomePage() {
             <p>
               <a href="https://www.linkedin.com/in/brianliebe/" target="_blank">
                 @brianliebe
+                <Launch size="12" className="inline-icon" />
               </a>
             </p>
             <h3>GitHub</h3>
             <p>
               <a href="https://www.github.com/brianliebe" target="_blank">
                 @brianliebe
+                <Launch size="12" className="inline-icon" />
               </a>
             </p>
           </TabPanel>
