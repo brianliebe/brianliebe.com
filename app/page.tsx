@@ -8,7 +8,7 @@ import {
   Education,
   Home,
   Launch,
-  ToolKit
+  ToolKit,
 } from "@carbon/icons-react";
 
 export default function HomePage() {
@@ -42,9 +42,9 @@ export default function HomePage() {
         </TabList>
         <TabPanels>
           <TabPanel>
-            <h3>Brian Liebe</h3>
+            <h3 style={{ paddingBottom: "0.5rem" }}>Brian Liebe</h3>
             <p>
-              Software Engineer • BS in Computer Science
+              Software Engineer
               <br />
               New York, NY
             </p>
@@ -56,6 +56,16 @@ export default function HomePage() {
             </p>
           </TabPanel>
           <TabPanel>
+            <h3>Advanced Software Developer</h3>
+            <p>
+              Memorial Sloan Kettering Cancer Center
+              <br />
+              <small>
+                <i>React.js • C#/.NET • GraphQL</i>
+              </small>
+              <br />
+              <small>Apr 2024 - Present</small>
+            </p>
             <h3>Software Engineer I</h3>
             <p>
               Memorial Sloan Kettering Cancer Center
@@ -64,7 +74,7 @@ export default function HomePage() {
                 <i>C#/.NET • React.js • Vue.js • SQL</i>
               </small>
               <br />
-              <small>Dec. 2021 - Present</small>
+              <small>Dec 2021 - Apr 2024</small>
             </p>
             <h3>Technical Implementation Specialist</h3>
             <p>
@@ -74,7 +84,7 @@ export default function HomePage() {
                 <i>Python • SQL</i>
               </small>
               <br />
-              <small>Mar. 2021 - Jul. 2021</small>
+              <small>Mar 2021 - Jul 2021</small>
             </p>
             <h3>Junior Delivery Engineer</h3>
             <p>
@@ -84,7 +94,7 @@ export default function HomePage() {
                 <i>C# • Java • TCL</i>
               </small>
               <br />
-              <small>Jan. 2019 - Mar. 2021</small>
+              <small>Jan 2019 - Mar 2021</small>
             </p>
             <h3>Software Engineering Intern</h3>
             <p>
@@ -94,7 +104,7 @@ export default function HomePage() {
                 <i>C# • Python</i>
               </small>
               <br />
-              <small>Jun. 2017 - Aug. 2017</small>
+              <small>Jun 2017 - Aug 2017</small>
             </p>
             <h3>Teaching & Course Assistant</h3>
             <p>
@@ -104,7 +114,7 @@ export default function HomePage() {
                 <i>Computer Science • Physics</i>
               </small>
               <br />
-              <small>Aug. 2017 - Dec. 2018</small>
+              <small>Aug 2017 - Dec 2018</small>
             </p>
           </TabPanel>
           <TabPanel>
@@ -116,7 +126,7 @@ export default function HomePage() {
             </p>
           </TabPanel>
           <TabPanel>
-            <h3>Front-end</h3>
+            <h3>Frontend</h3>
             <p>
               React.js
               <br />
@@ -125,8 +135,10 @@ export default function HomePage() {
               JavaScript
               <br />
               TypeScript
+              <br />
+              Tailwind
             </p>
-            <h3>Back-end</h3>
+            <h3>Backend</h3>
             <p>
               C# / .NET / ASP.NET
               <br />
@@ -158,7 +170,8 @@ export default function HomePage() {
           <TabPanel>
             <h3>NYT Games Discord Bot</h3>
             <p>
-              Discord chat bot that detects and tracks Wordle, Connections, and Strands scores
+              Discord chat bot that detects and tracks Wordle, Connections, and
+              Strands scores
               <br />
               <small>
                 <i>Python • MySQL</i>
@@ -169,6 +182,22 @@ export default function HomePage() {
                   href="https://github.com/brianliebe/nyt-games-bot"
                   target="_blank"
                 >
+                  View on GitHub
+                  <Launch size="12" className="inline-icon" />
+                </a>
+              </small>
+            </p>
+            <h3>Circle9 Puzzle Solver</h3>
+            <p>
+              React webpage which provides hints and solutions to Circle9
+              puzzles
+              <br />
+              <small>
+                <i>React.js</i>
+              </small>
+              <br />
+              <small>
+                <a href="https://github.com/brianliebe/circle9" target="_blank">
                   View on GitHub
                   <Launch size="12" className="inline-icon" />
                 </a>
@@ -212,8 +241,6 @@ export default function HomePage() {
             </p>
           </TabPanel>
           <TabPanel>
-            <h3>Email</h3>
-            <p>brianjliebe /at/ gmail.com</p>
             <h3>LinkedIn</h3>
             <p>
               <a href="https://www.linkedin.com/in/brianliebe/" target="_blank">
