@@ -56,17 +56,21 @@ export default function HomePage() {
             </p>
           </TabPanel>
           <TabPanel>
-            <h3>Advanced Software Developer</h3>
+            <h3>
+              Advanced Software Engineer, <i>Clinical Research</i>
+            </h3>
             <p>
               Memorial Sloan Kettering Cancer Center
               <br />
               <small>
-                <i>React.js • C#/.NET • GraphQL</i>
+                <i>React.js • C#/.NET • GraphQL• SQL</i>
               </small>
               <br />
               <small>Apr 2024 - Present</small>
             </p>
-            <h3>Software Engineer I</h3>
+            <h3>
+              Software Engineer, <i>Clinical Integrations</i>
+            </h3>
             <p>
               Memorial Sloan Kettering Cancer Center
               <br />
@@ -76,7 +80,9 @@ export default function HomePage() {
               <br />
               <small>Dec 2021 - Apr 2024</small>
             </p>
-            <h3>Technical Implementation Specialist</h3>
+            <h3>
+              Software Engineer, <i>Implementation</i>
+            </h3>
             <p>
               n-Tier Financial Services
               <br />
@@ -86,7 +92,9 @@ export default function HomePage() {
               <br />
               <small>Mar 2021 - Jul 2021</small>
             </p>
-            <h3>Junior Delivery Engineer</h3>
+            <h3>
+              Software Engineer, <i>Delivery</i>
+            </h3>
             <p>
               Fidessa (ION Group)
               <br />
@@ -96,33 +104,13 @@ export default function HomePage() {
               <br />
               <small>Jan 2019 - Mar 2021</small>
             </p>
-            <h3>Software Engineering Intern</h3>
-            <p>
-              Universal Instruments Corporation
-              <br />
-              <small>
-                <i>C# • Python</i>
-              </small>
-              <br />
-              <small>Jun 2017 - Aug 2017</small>
-            </p>
-            <h3>Teaching & Course Assistant</h3>
-            <p>
-              Binghamton University
-              <br />
-              <small>
-                <i>Computer Science • Physics</i>
-              </small>
-              <br />
-              <small>Aug 2017 - Dec 2018</small>
-            </p>
           </TabPanel>
           <TabPanel>
-            <h3>Bachelor of Science in Computer Science</h3>
+            <h3>B.S. in Computer Science</h3>
             <p>
               Binghamton University
               <br />
-              <small>GPA 3.80/4 (overall) &mdash; 3.86/4 (major)</small>
+              <small>Aug 2015 - Dec 2018</small>
             </p>
           </TabPanel>
           <TabPanel>
@@ -144,27 +132,21 @@ export default function HomePage() {
               <br />
               Python
               <br />
-              SQL
-              <br />
-              MySQL
-              <br />
-              MongoDB
-              <br />
-              Java
-              <br />
-              TCL
+              SQL / MySQL / Oracle
             </p>
             <h3>Additional</h3>
             <p>
               Git / GitHub / Actions
               <br />
-              Microsoft Office / VSTO
+              Entity Framework
               <br />
-              DataDog
+              GraphQL
+              <br />
+              Figma
+              <br />
+              Databricks
               <br />
               Splunk
-              <br />
-              OpenCV
             </p>
           </TabPanel>
           <TabPanel>
@@ -189,7 +171,7 @@ export default function HomePage() {
             </p>
             <h3>Circle9 Puzzle Solver</h3>
             <p>
-              React webpage which provides hints and solutions to Circle9
+              React webpage which provides hints and solutions for Circle9
               puzzles
               <br />
               <small>
@@ -243,7 +225,7 @@ export default function HomePage() {
           <TabPanel>
             <h3>LinkedIn</h3>
             <p>
-              <a href="https://www.linkedin.com/in/brianliebe/" target="_blank">
+              <a href="https://www.linkedin.com/in/brianliebe" target="_blank">
                 @brianliebe
                 <Launch size="12" className="inline-icon" />
               </a>
