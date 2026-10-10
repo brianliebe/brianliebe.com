@@ -1,35 +1,33 @@
 {
   "name": "website",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
-    "next": "15.5.7",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@carbon/icons-react": "^11.89.0",
+    "@carbon/react": "^1.117.0",
+    "@carbon/themes": "^11.82.0",
+    "@carbon/type": "^11.68.0",
+    "next": "16.3.8",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.105.1"
   },
   "devDependencies": {
-    "@carbon/icons-react": "^11.45.0",
-    "@carbon/react": "^1.62.1",
-    "@carbon/themes": "^11.37.0",
-    "@carbon/type": "^11.28.0",
-    "@types/node": "^22.0.0",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "eslint": "^8.57.0",
-    "eslint-config-next": "14.2.5",
-    "prettier": "^3.3.3",
-    "sass": "^1.77.8",
-    "typescript": "^5.5.4"
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "prettier": "^3.9.9",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   },
-  "pnpm": {
-    "overrides": {
-      "cross-spawn": "7.0.5"
-    }
-  }
+  "packageManager": "pnpm@12.11.2"
 }

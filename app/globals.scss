@@ -9,6 +9,8 @@
 );
 @use "@carbon/react/scss/components/tabs";
 
+@import "tailwindcss";
+
 .inline-icon {
   position: relative;
   bottom: -1px;
@@ -29,6 +31,14 @@
 .cds--tab-content {
   text-align: center;
   margin-top: 2rem;
+}
+
+.cds--tabs__nav-item-label-wrapper {
+  margin: 15px;
+}
+
+.cds--tab--list {
+  @apply flex gap-x-0.5
 }
 
 .cds--tab--overflow-nav-button.cds--tab--overflow-nav-button--next,
